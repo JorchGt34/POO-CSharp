@@ -1,0 +1,15 @@
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.AssemblyInfoInputs.cache
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.AssemblyInfo.cs
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.csproj.CoreCompileInputs.cache
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.sourcelink.json
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/bin/Debug/net9.0/1erClaseObjeto
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/bin/Debug/net9.0/1erClaseObjeto.deps.json
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/bin/Debug/net9.0/1erClaseObjeto.runtimeconfig.json
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/bin/Debug/net9.0/1erClaseObjeto.dll
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/bin/Debug/net9.0/1erClaseObjeto.pdb
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.dll
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/refint/1erClaseObjeto.dll
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.pdb
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/1erClaseObjeto.genruntimeconfig.cache
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/1erClaseObjeto/obj/Debug/net9.0/ref/1erClaseObjeto.dll

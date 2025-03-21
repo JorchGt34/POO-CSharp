@@ -1,0 +1,15 @@
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/bin/Debug/net9.0/SuperHeroesApp
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/bin/Debug/net9.0/SuperHeroesApp.deps.json
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/bin/Debug/net9.0/SuperHeroesApp.runtimeconfig.json
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/bin/Debug/net9.0/SuperHeroesApp.dll
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/bin/Debug/net9.0/SuperHeroesApp.pdb
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.AssemblyInfoInputs.cache
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.AssemblyInfo.cs
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.csproj.CoreCompileInputs.cache
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.sourcelink.json
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.dll
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/refint/SuperHeroesApp.dll
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.pdb
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/SuperHeroesApp.genruntimeconfig.cache
+/Users/jorgemontoyaprieto/Desktop/GitHubRepos/POO-CSharp/SuperHeroesApp/obj/Debug/net9.0/ref/SuperHeroesApp.dll
