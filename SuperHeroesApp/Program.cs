@@ -67,16 +67,9 @@ class SuperHeroe
 }
 class SuperPoder 
 {
-    public string Nombre;
-    public string Descripcion;
-    public NivelPoder Nivel;
-
-    public SuperPoder()
-    {
-        Nombre = "";
-        Descripcion = "";
-        Nivel = NivelPoder.NivelUno;
-    }
+    public string Nombre = "";
+    public string Descripcion = "";
+    public NivelPoder Nivel = NivelPoder.NivelUno;
 }
 enum NivelPoder
 {
