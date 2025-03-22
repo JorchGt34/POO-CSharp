@@ -54,12 +54,29 @@ class SuperHeroe
     public string Ciudad;
     public List<SuperPoder> SuperPoderes;
     public bool PuedeVolar;
+
+    public SuperHeroe()
+    {
+        Id = 0;
+        Nombre = "";
+        IdentidadSecreta = "";
+        Ciudad = "";
+        SuperPoderes = new List<SuperPoder>();
+        PuedeVolar = false;
+    }
 }
 class SuperPoder 
 {
     public string Nombre;
     public string Descripcion;
     public NivelPoder Nivel;
+
+    public SuperPoder()
+    {
+        Nombre = "";
+        Descripcion = "";
+        Nivel = NivelPoder.NivelUno;
+    }
 }
 enum NivelPoder
 {
