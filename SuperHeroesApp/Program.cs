@@ -1,4 +1,6 @@
 ﻿//Poderes
+using System.Text;
+
 var poderVolar = new SuperPoder();
 
 poderVolar.Nombre = "Volar";
@@ -46,8 +48,10 @@ flash.PuedeVolar = false;
 flash.SuperPoderes = poderesFlash;
 
 //Usar metodos 
-superman.UsarSuperPoderes();
-flash.UsarSuperPoderes();
+string resultSuperPoderes = superman.UsarSuperPoderes();
+Console.WriteLine(resultSuperPoderes);
+resultSuperPoderes = flash.UsarSuperPoderes();
+Console.WriteLine(resultSuperPoderes);
 
 class SuperHeroe 
 {
@@ -71,12 +75,14 @@ class SuperHeroe
     }
 
     //Metodos
-    public void UsarSuperPoderes()
+    public string UsarSuperPoderes()
     {
+        StringBuilder sb = new StringBuilder();
         foreach (var poder in SuperPoderes)
         {
-            Console.WriteLine($"{Nombre} puede usar el super poder {poder.Nombre}");
+            sb.AppendLine($"{Nombre} puede usar el super poder {poder.Nombre}");
         }
+        return sb.ToString();
     }
 }
 class SuperPoder 
