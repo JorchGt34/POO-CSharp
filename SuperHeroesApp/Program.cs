@@ -45,9 +45,13 @@ flash.Ciudad = "Central City";
 flash.PuedeVolar = false;
 flash.SuperPoderes = poderesFlash;
 
-Console.WriteLine(flash.SuperPoderes[0].Descripcion);
+//Usar metodos 
+superman.UsarSuperPoderes();
+flash.UsarSuperPoderes();
+
 class SuperHeroe 
 {
+    //Propiedades
     public int Id;
     public string Nombre;
     public string IdentidadSecreta;
@@ -55,6 +59,7 @@ class SuperHeroe
     public List<SuperPoder> SuperPoderes;
     public bool PuedeVolar;
 
+    //Constructor
     public SuperHeroe()
     {
         Id = 0;
@@ -63,6 +68,15 @@ class SuperHeroe
         Ciudad = "";
         SuperPoderes = new List<SuperPoder>();
         PuedeVolar = false;
+    }
+
+    //Metodos
+    public void UsarSuperPoderes()
+    {
+        foreach (var poder in SuperPoderes)
+        {
+            Console.WriteLine($"{Nombre} puede usar el super poder {poder.Nombre}");
+        }
     }
 }
 class SuperPoder 
