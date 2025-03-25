@@ -1,5 +1,6 @@
 ﻿//Poderes
 using System.Text;
+using SuperHeroesApp.Models;
 
 var poderVolar = new SuperPoder();
 
@@ -20,7 +21,6 @@ superVelocidad.Descripcion = "Capacidad para moverse a velocidades extremadament
 superVelocidad.Nivel = NivelPoder.NivelTres;
 
 //Lista de superpoderes
-/*
 List<SuperPoder> poderesSuperman = new List<SuperPoder>();
 poderesSuperman.Add(poderVolar);
 poderesSuperman.Add(superFuerza);
@@ -28,7 +28,6 @@ poderesSuperman.Add(superFuerza);
 List<SuperPoder> poderesFlash = new List<SuperPoder>();
 poderesFlash.Add(superFuerza);
 poderesFlash.Add(superVelocidad);
-*/
 
 //Super heroes
 var superman = new SuperHeroe();
@@ -38,8 +37,9 @@ superman.Nombre = "Superman";
 superman.IdentidadSecreta = "Clark Kent";
 superman.Ciudad = "Metropolis";
 superman.PuedeVolar = true;
-//superman.SuperPoderes = poderesSuperman;
+superman.SuperPoderes = poderesSuperman;
 
+/* 
 var superman2 = new SuperHeroe();
 
 superman2.Id = 1;
@@ -55,6 +55,7 @@ SuperHeroeRecord superHeroeRecord = new (1, "Superman", "Clark Kent");
 SuperHeroeRecord superHeroeRecord2 = new (1, "Superman", "Clark Kent");
 
 Console.WriteLine(superHeroeRecord == superHeroeRecord2); //Compara si los objetos Record son iguales, y como valen lo mismo por sus valores, esto retorna true.
+*/
 
 var flash = new SuperHeroe();
 
@@ -63,7 +64,7 @@ flash.Nombre = "The Flash";
 flash.IdentidadSecreta = "Barry Allen";
 flash.Ciudad = "Central City";
 flash.PuedeVolar = false;
-//flash.SuperPoderes = poderesFlash;
+flash.SuperPoderes = poderesFlash;
 
 //Usar metodos 
 string resultSuperPoderes = superman.UsarSuperPoderes();
@@ -71,44 +72,6 @@ Console.WriteLine(resultSuperPoderes);
 resultSuperPoderes = flash.UsarSuperPoderes();
 Console.WriteLine(resultSuperPoderes);
 
-class SuperHeroe
-{
-    //Propiedades
-    public int Id;
-    public string Nombre;
-    public string IdentidadSecreta;
-    public string Ciudad;
-    public List<SuperPoder> SuperPoderes;
-    public bool PuedeVolar;
-
-    //Constructor
-    public SuperHeroe()
-    {
-        Id = 0;
-        Nombre = "";
-        IdentidadSecreta = "";
-        Ciudad = "";
-        SuperPoderes = new List<SuperPoder>();
-        PuedeVolar = false;
-    }
-
-    //Metodos
-    public string UsarSuperPoderes()
-    {
-        StringBuilder sb = new StringBuilder();
-        foreach (var poder in SuperPoderes)
-        {
-            sb.AppendLine($"{Nombre} puede usar el super poder {poder.Nombre}");
-        }
-        return sb.ToString();
-    }
-}
-class SuperPoder
-{
-    public string Nombre = "";
-    public string Descripcion = "";
-    public NivelPoder Nivel = NivelPoder.NivelUno;
-}
 enum NivelPoder
 {
     NivelUno,
@@ -116,4 +79,6 @@ enum NivelPoder
     NivelTres
 }
 
+/* 
 public record SuperHeroeRecord(int Id, string Nombre, string IdentidadSecreta);
+*/
