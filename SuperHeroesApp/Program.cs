@@ -1,6 +1,9 @@
 ﻿//Poderes
 using System.Text;
+using SuperHeroesApp;
 using SuperHeroesApp.Models;
+
+var imprimirInfo = new ImprimirInfo();
 
 var poderVolar = new SuperPoder();
 
@@ -42,7 +45,7 @@ poderesWolverine.Add(regeneracion);
 var superman = new SuperHeroe();
 
 superman.Id = 1;
-superman.Nombre = "Superman";
+superman.Nombre = "   Superman   ";
 superman.IdentidadSecreta = "Clark Kent";
 superman.Ciudad = "Metropolis";
 superman.PuedeVolar = true;
@@ -83,6 +86,11 @@ wolverine.PuedeVolar = false;
 wolverine.Ciudad = "Sin ciudad";
 wolverine.SuperPoderes = poderesWolverine;
 
+//Imprimir información
+imprimirInfo.ImprimirSuperHeroe(superman);
+imprimirInfo.ImprimirSuperHeroe(flash);
+imprimirInfo.ImprimirSuperHeroe(wolverine);
+
 //Usar metodos 
 string resultSuperPoderes = superman.UsarSuperPoderes();
 Console.WriteLine(resultSuperPoderes);
@@ -93,6 +101,22 @@ Console.WriteLine(resultSuperPoderes);
 
 string accionAntiheroe = wolverine.RealizarAccionDeAntiheroe("Ataca a la policia");
 Console.WriteLine(accionAntiheroe);
+
+resultSuperPoderes = superman.SalvarElMundo();
+Console.WriteLine(resultSuperPoderes);
+
+resultSuperPoderes = flash.SalvarElMundo();
+Console.WriteLine(resultSuperPoderes);
+
+resultSuperPoderes = wolverine.SalvarElMundo();
+Console.WriteLine(resultSuperPoderes);
+
+string usoDeMetodos = superman.SalvarLaTierra();
+Console.WriteLine(usoDeMetodos);
+usoDeMetodos = flash.SalvarLaTierra();
+Console.WriteLine(usoDeMetodos);
+usoDeMetodos = wolverine.SalvarLaTierra();
+Console.WriteLine(usoDeMetodos);
 
 enum NivelPoder
 {
