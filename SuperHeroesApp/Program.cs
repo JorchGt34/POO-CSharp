@@ -20,6 +20,11 @@ superVelocidad.Nombre = "Super velocidad";
 superVelocidad.Descripcion = "Capacidad para moverse a velocidades extremadamente altas";
 superVelocidad.Nivel = NivelPoder.NivelTres;
 
+var regeneracion = new SuperPoder();
+regeneracion.Nombre = "Regeneración";
+regeneracion.Nivel = NivelPoder.NivelTres;
+regeneracion.Descripcion = "Regenera daños fisicos mortales, no le permite al usuario morir";
+
 //Lista de superpoderes
 List<SuperPoder> poderesSuperman = new List<SuperPoder>();
 poderesSuperman.Add(poderVolar);
@@ -28,6 +33,10 @@ poderesSuperman.Add(superFuerza);
 List<SuperPoder> poderesFlash = new List<SuperPoder>();
 poderesFlash.Add(superFuerza);
 poderesFlash.Add(superVelocidad);
+
+List<SuperPoder> poderesWolverine = new List<SuperPoder>();
+poderesWolverine.Add(superFuerza);
+poderesWolverine.Add(regeneracion);
 
 //Super heroes
 var superman = new SuperHeroe();
@@ -66,11 +75,24 @@ flash.Ciudad = "Central City";
 flash.PuedeVolar = false;
 flash.SuperPoderes = poderesFlash;
 
+var wolverine = new AntiHeroe();
+wolverine.Id = 5;
+wolverine.Nombre = "Wolverine";
+wolverine.IdentidadSecreta = "Logan";
+wolverine.PuedeVolar = false;
+wolverine.Ciudad = "Sin ciudad";
+wolverine.SuperPoderes = poderesWolverine;
+
 //Usar metodos 
 string resultSuperPoderes = superman.UsarSuperPoderes();
 Console.WriteLine(resultSuperPoderes);
 resultSuperPoderes = flash.UsarSuperPoderes();
 Console.WriteLine(resultSuperPoderes);
+resultSuperPoderes = wolverine.UsarSuperPoderes();
+Console.WriteLine(resultSuperPoderes);
+
+string accionAntiheroe = wolverine.RealizarAccionDeAntiheroe("Ataca a la policia");
+Console.WriteLine(accionAntiheroe);
 
 enum NivelPoder
 {
